@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="custom.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <script src="" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="backfront.js"></script>
+
+</head>
+
+<body class="text-center" data-spy="scroll" data-target=".navbar" data-offset="180">
+    <div id="#wrapper" class="">
+        <!-- navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="toggled" data-target="#wrapper">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <div class="container">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="nav-side-wrapper">
+            <div class="container">
+                <ul class="nav-side">
+
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="content-wrapper">
+            <!-- Inicio da pagina -->
+            <section id="home" class="jumbotron vertical-centre bgd shadow" data-speed="5" data-type="background">
+                <div class="container">
+                    <h1>Mayara Betim Rodrigues</h1>
+                    <h3>Bem vindo ao meu portfolio</h3>
+                    <p>
+                        <a href="https://linkedin.com/in/dandanlim" target="_blank" title="LinkedIn profile" class="btn btn-default btn-lg">
+                            <i class="fa fa-linkedin-square"></i>LinkedIn
+                        </a>
+                    </p>
+                </div>
+
+        </section>
+
+        <!-- portfolio -->
+        <section id="portfolio" class="bgd shadow" data-speed="5" data-type="background">
+            <div class="container">
+                <h1 class="page-header">Um pouco sobre mim</h1>
+                <h3>Oh look, stuff!</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img />
+                            <p><strong>Formação Academica</strong></p>
+                            <p>Análise e Desenvolvimento de Sistemas. Faculdade de Tecnologia de Sorocaba, previsão de conclusão em 2020.</p>
+                            <p>Técnico em Administração. Etec Fernando Prestes, conclusão em 2011.</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img />
+                            <p><strong>Experiências profissionais</strong></p>
+                            <p><b>2019 - Atualmente | Stefanini</b></p>
+                            <p>Cargo: Estágio em desenvolvimento de IA</p>
+                            <p>Principais Atividades: Integração de IA Sophie com sistemas</p>
+                            <br>
+
+                            <p><b>2019 - Abril | Ventron</b></p>
+                            <p>Cargo: Estágio em design UX</p>
+                            <p> Principais atividades: criação de arts, elaboração de artigos, verificação e correção de bugs no site, analise do site com Google Analytics</p>
+                            <br>
+
+                            <p><b>2013-2018 | Flextronics</b></p>
+                            <p>Cargo: Auxiliar de almoxerifado</p>
+                            <p>Principais atividades: rotinas administrativas referentes a notas ficais e rotinas de logística referentes ao almoxarifado</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img />
+                            <p><strong>Qualificações</strong></p>
+                            <p><b>Conhecimento nas linguagens</b></p>
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>C# .NET</p>
+                            <p>SQL Server e Oracle</p>
+                            <p>Java</p>
+                            <p>C</p>
+                            <p>JavaScript</p>
+                            
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="container">
+                <h1 class="page-header">Entre em contato</h1>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p>Contact me and I’ll get back to you within a day.</p>
+                        <p><i class="glyphicon glyphicon-map-marker"></i> Sorocaba, São Paulo</p>
+                        <p><i class="glyphicon glyphicon-envelope"></i> mayara.betim@gmail.com</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <form role="form" id="contact-form">
+                            <div class="row">
+                                <div class="col-sm-6 form-group">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                            </div>
+                            <button id="form-submit" class="btn btn-success btn-md pull-right" type="submit">Send</button>
+                            <div id="form-feedback" class="pull-right text-right">Message sent!
+                                <br><small>(not really, it's a demo)</small></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid">
+            <a class="top" href="#home" title="Back to top">
+                <p><i class="glyphicon glyphicon-chevron-up"></i>
+                    <br>Back to top</p>
+            </a>
+            <small>Theme designed by <a href="http://dan.motiongear.org/blog" target="_blank" title="Check me out">Dandan Lim</a> using Bootstrap
+            </small>
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>
